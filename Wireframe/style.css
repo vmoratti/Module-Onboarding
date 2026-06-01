@@ -24,7 +24,7 @@ As well as useful links to learn more */
   --line: 1px solid;
   --container: 1280px;
 }
-/* ====== Base Elements ======
+
  General rules for basic HTML elements in any context */
 body {
   background: var(--paper);
@@ -50,10 +50,16 @@ main {
   margin: 0 auto calc(var(--space) * 4) auto;
 }
 footer {
+  background-color: black;
+  color: white;
+  font-size: 10px;
   position: fixed;
   bottom: 0;
   text-align: center;
+  box-sizing: border-box;
+  width: 100%;
 }
+
 /* ====== Articles Grid Layout ====
 Setting the rules for how articles are placed in the main element.
 Inspect this in Devtools and click the "grid" button in the Elements view
